@@ -12,16 +12,16 @@
 
     <div>
 
-        <form method="post">
+        <form action="calculadora.php" method="post">
 
-            <input type="float" name="valor1">
+            <input type="number" step="any" name="valor1">
             <select name="operacion">
                 <option value="sumar">+</option>
                 <option value="restar">-</option>
                 <option value="multiplicar">*</option>
                 <option value="dividir">/</option>
             </select>
-            <input type="float" name="valor2">
+            <input type="number" step="any" name="valor2">
             <button type="submit">Enviar</button>
         </form>
     </div>
